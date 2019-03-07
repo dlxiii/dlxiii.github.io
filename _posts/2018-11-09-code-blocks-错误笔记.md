@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      signal SIGSEGV: Segmentation fault - invalid memory reference
+title:      code::blocks 错误笔记
 subtitle:   code::blocks 错误 signal SIGSEGV: Segmentation fault - invalid memory reference
 date:       2018-11-09
 author:     DLXIII
