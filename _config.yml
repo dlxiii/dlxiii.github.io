@@ -11,7 +11,7 @@ github_repo: "https://github.com/dlxiii/dlxiii.github.io.git" # you code reposit
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "TBA!"
+sidebar-about-description: "Half is worse than none at all."
 sidebar-avatar: /img/about-dlxiii.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
