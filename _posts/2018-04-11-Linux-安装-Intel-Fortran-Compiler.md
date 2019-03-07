@@ -4,7 +4,7 @@ title:      Linux 安装 Intel Fortran Compiler
 subtitle:   在 CentOS 上安装 Fortran 编译器
 date:       2018-04-10
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-fortran90.jpg
 catalog: true
 tags:
     - linux
