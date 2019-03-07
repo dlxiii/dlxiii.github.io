@@ -55,7 +55,7 @@ wget http://registrationcenter-download.intel.com/akdlm/irc_nas/tec/12374/parall
 ```shell
 mv parallel_studio_xe_2018_update1_cluster_edition.tgz downloads
 ```
-### 安装 Intel Fortran Compiler
+## 安装 Intel Fortran Compiler
 
 * 解压 `*.tgz ` 文件，并安装。
 
