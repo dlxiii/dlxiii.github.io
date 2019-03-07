@@ -4,7 +4,7 @@ title:      Fortran：CONTAINS 语句
 subtitle:   学习 Fortran：CONTAINS 语句
 date:       2018-07-31
 author:     DLXIII
-header-img: img/post-bg-fortran.jpg
+header-img: img/post-bg-fortran90.jpg
 catalog: true
 tags:
     - fortran
