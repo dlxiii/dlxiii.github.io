@@ -9,7 +9,7 @@ catalog: true
 tags:
     - linux
     - centos
-    - fortrian
+    - fortran
     - intel
 ---
 
