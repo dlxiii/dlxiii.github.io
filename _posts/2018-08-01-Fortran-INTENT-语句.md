@@ -4,7 +4,7 @@ title:      Fortran：INTENT 语句
 subtitle:   学习 Fortran：INTENT 语句
 date:       2018-08-01
 author:     DLXIII
-header-img: img/post-bg-fortran.jpg
+header-img: img/post-bg-fortran90.jpg
 catalog: true
 tags:
     - fortran
