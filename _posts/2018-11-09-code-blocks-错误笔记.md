@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      code::blocks 错误笔记
-subtitle:   signal SIGSEGV: Segmentation fault - invalid memory reference
+subtitle:   解决使用 codeblocks 编译 fortran 代码时的错误
 date:       2018-11-09
 author:     DLXIII
 header-img: img/post-bg-hacker.jpg
@@ -31,7 +31,7 @@ tags:
 
 可以使用新版本替换。
 
-方法如下：
+## 方法
 
 https://sourceforge.net/projects/mingw/files/MinGW/Base/gcc/Version6/ with this replaced compiler.
 
