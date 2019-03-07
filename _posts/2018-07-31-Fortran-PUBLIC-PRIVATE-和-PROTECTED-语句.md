@@ -4,7 +4,7 @@ title:      Fortran：PUBLIC, PRIVATE 和 PROTECTED 语句
 subtitle:   学习 Fortran：PUBLIC, PRIVATE 和 PROTECTED 语句
 date:       2018-07-31
 author:     DLXIII
-header-img: img/post-bg-fortran.jpg
+header-img: img/post-bg-fortran90.jpg
 catalog: true
 tags:
     - fortran
