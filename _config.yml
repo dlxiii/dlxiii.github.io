@@ -1,10 +1,10 @@
 # Site settings
-title: dlxiii
+title: DLXIII
 SEOTitle: DLXIII'S BLOG
 header-img: img/post-bg-desk.jpg
 email: tokyodlxiii@gmail.com
 description: "Half is worse than none at all."
-keyword: "DLXIII, dlxiii, dragonbaby-toudai.cn, Yulong's Notebook, Yulong WANG"
+keyword: "DLXIII, dlxiii, dragonbaby-toudai.cn, Yulong's Notebook, Yulong WANG, 王禹龙，王 禹龍"
 url: "http://dlxiii.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/dlxiii/dlxiii.github.io.git" # you code repository
@@ -99,16 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Yulong's Notebook",
+        href: "https://www.dragonbaby-toudai.cn/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Jun SASAKI Lab",
+        href: "https://estuarine.jp/"
     }
 ]
