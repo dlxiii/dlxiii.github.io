@@ -4,7 +4,7 @@ title:      安装 FVCOM 测试 Estuary
 subtitle:   配置并编译 fvcom 并随后试算 Estuary 算例
 date:       2018-04-12
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-nsequation.jpg
 catalog: true
 tags:
     - linux
