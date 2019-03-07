@@ -4,7 +4,7 @@ title:      Fortran：TARGET 语句
 subtitle:   学习 Fortran：TARGET 语句
 date:       2018-08-01
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-fortran.jpg
 catalog: true
 tags:
     - fortran
