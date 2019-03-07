@@ -61,12 +61,12 @@ disqus_username: dlxiii
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  enable: true    #是否开启Gitalk评论
+  clientID: ae732a2bdde61fa427bc                            #生成的clientID
+  clientSecret: 02741112b1dcb41c0f7db1fd36a2d57fbba34089    #生成的clientSecret
+  repo: dlxiii.github.io    #仓库名称
+  owner: dlxiii    #github用户名
+  admin: dlxiii
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
