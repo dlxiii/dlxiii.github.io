@@ -17,7 +17,7 @@ tags:
 
 配置 CentOS 系统后要安装 OpenMPI。
 
-### 下载 OpenMPI 并解压
+## 下载 OpenMPI 并解压
 
 * OpenMPI 版本号为3.0。
 * 下载到 `downloads/` 目录。
@@ -37,7 +37,7 @@ wget https://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.0.tar.gz
 mv openmpi-3.0.0.tar.gz downloads
 ```
 
-### 安装 OpenMPI
+## 安装 OpenMPI
 
 * 解压 `*.tar.gz ` 文件，并安装，这是基于源代码的安装方式。
 
