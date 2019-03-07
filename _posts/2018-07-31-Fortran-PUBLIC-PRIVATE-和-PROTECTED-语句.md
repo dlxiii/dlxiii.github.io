@@ -8,7 +8,9 @@ header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
     - fortran
-    - save statement
+    - public statement
+    - private statement
+    - protected statement
 ---
 
 
