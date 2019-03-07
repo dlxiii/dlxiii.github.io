@@ -4,13 +4,12 @@ title:      Undefined symbols for architecture x86_64
 subtitle:   解决 gfortran的Undefined symbols for architecture x86_64: 问题
 date:       2018-07-29
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-fortran.jpg
 catalog: true
 tags:
     - gfortran
     - Undefined symbols for architecture x86_64
 ---
-
 
 ## 前言
 
