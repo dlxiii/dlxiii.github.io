@@ -4,7 +4,7 @@ title:      code::blocks 错误笔记
 subtitle:   解决使用 codeblocks 编译 fortran 代码时的错误
 date:       2018-11-09
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-lego.jpg
 catalog: true
 tags:
     - gfortran
