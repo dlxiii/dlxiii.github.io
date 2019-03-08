@@ -4,7 +4,7 @@ title:      python 求解偏微分方程：scipy.integrate.odeint
 subtitle:   学习 python 求解偏微分方程：scipy.integrate.odeint
 date:       2018-08-13
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-python.jpg
 catalog: true
 tags:
     - python
