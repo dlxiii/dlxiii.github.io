@@ -5,7 +5,7 @@ header-img: img/home-bg-coast.jpg
 email: tokyodlxiii@gmail.com
 description: "Blog of Yulong WANG."
 keyword: "DLXIII, dlxiii, dragonbaby-toudai.cn, Yulong's Notebook, Yulong WANG, 王禹龙，王 禹龍"
-url: "https://dlxiii.top"          # your host, for absolute URL
+url: "http://dlxiii.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/dlxiii/dlxiii.github.io.git" # you code repository
 
