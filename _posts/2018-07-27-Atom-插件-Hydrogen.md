@@ -4,7 +4,7 @@ title:      Atom 插件 Hydrogen
 subtitle:   Atom运行Python：插件Hydrogen
 date:       2018-07-27
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-python.jpg
 catalog: true
 tags:
     - python
