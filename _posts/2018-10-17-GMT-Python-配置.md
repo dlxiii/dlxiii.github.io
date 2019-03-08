@@ -4,7 +4,7 @@ title:      GMT/Python 配置
 subtitle:   更新 GMT/Python 配置的记录
 date:       2018-10-17
 author:     DLXIII
-header-img: img/post-bg-hacker.jpg
+header-img: img/post-bg-python.jpg
 catalog: true
 tags:
     - gmt/python
