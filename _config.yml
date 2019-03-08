@@ -98,10 +98,11 @@ service-worker: true
 
 # Friends
 friends: [
+    #{
+    #    title: "Yulong's Notebook",
+    #    href: "https://www.dragonbaby-toudai.cn/"
+    #},
     {
-        title: "Yulong's Notebook",
-        href: "https://www.dragonbaby-toudai.cn/"
-    },{
         title: "Jun SASAKI Lab",
         href: "https://estuarine.jp/"
     }
