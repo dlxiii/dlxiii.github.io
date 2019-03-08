@@ -17,7 +17,7 @@ sidebar-avatar: /img/about-dlxiii.jpg      # use absolute URL, seeing it's used 
 
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:
 # zhihu_username:
 github_username:    dlxiii
