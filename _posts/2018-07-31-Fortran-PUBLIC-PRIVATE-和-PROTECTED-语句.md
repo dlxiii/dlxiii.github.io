@@ -33,7 +33,7 @@ tags:
 
 作为类型定义语句的一笔分来声明的例子（此类声明可用于数据项和函数，不能用于子程序）：
 
-~~~ fortran
+~~~
 INTEGER, PRIVATE :: count
 REAL, PUBLIC :: voltage
 REAL, PROTECTED :: my_data
@@ -42,7 +42,7 @@ TYPE (vector), PRIVATE :: scratch_vector
 
 指明数据项，函数和子程序的语句写法例子：
 
-~~~ fortran
+~~~
 PUBLIC :: list of public item
 PRIVATE :: list of private item
 PROTECTED :: list of private items
@@ -55,7 +55,7 @@ PROTECTED :: list of private items
 但是关联模块的程序不需要直接访问模块中的子程序或函数。
 这里隐藏所有对外部程序单元不必要的项。
 
-~~~ fortran
+~~~
 MODULE vectors
 !
 !  Purpose:
@@ -112,7 +112,7 @@ END TYPE
 外部程序单元可以随时声明派生数据类型变量，但是不能单独使用这些变量中的元素。
 一个带有私有元素的派生数据类型的例子：
 
-~~~ fortran
+~~~
 TYPE vector
     PRIVATE
     REAL :: x
@@ -125,7 +125,7 @@ END TYPE
 这与前面的例子不同：前面的例子中，数据类型可用，但是元素不能被单独访问。
 这种派生数据类型仅适用于模型内部的运算。
 
-~~~ fortran
+~~~
 TYPE, PRIVATE :: vector
     REAL :: x
     REAL :: y
@@ -135,7 +135,7 @@ END TYPE
 （3）在 Fortran 2003 中，既可以将派生数据类型的单个元素声明为私有，也可以生命为公有。
 在这种情况下，当派生数据类型定义所在的模块位于程序单元之外时，外部程序单元可以随意声明 vector 类型的变量，也可以自由访问元素 x，但是不能访问元素 y。
 
-~~~ fortran
+~~~
 TYPE :: vector
     REAL, PUBLIC :: x
     REAL, PRIVATE :: y
@@ -147,7 +147,7 @@ END TYPE
 但是 vec_1 却只能在模块内部使用。
 这种类型的声明对于模块内变量的内部运算会有用。
 
-~~~ fortran
+~~~
 TYPE :: vector
     REAL :: x
     REAL :: y
@@ -155,5 +155,7 @@ END TYPE
 TYPE (vector), PRIVATE :: vec_1
 ~~~
 
-参考：Fortran 95/2003 程序设计
-Chap13.8 限制对模块内容的访问 p498-p501
+## 参考
+
+**Fortran 95/2003 程序设计**
+* Chap13.8 限制对模块内容的访问 p498-p501
