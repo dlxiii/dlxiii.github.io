@@ -112,6 +112,8 @@ USE module_name, ONLY: only_list
 其中 module_name 是模块名，only_Iist 是模块中要使用的数据项表，如果有多个数据项，之间用逗号分开。
 
 
-参考：Fortran 95/2003 程序设计
-chap 7.2 用模块共享数据，p264-p266
-chap 13.9 USE 语句的高级选项，p501-p502
+## 参考
+
+Fortran 95/2003 程序设计
+* chap 7.2 用模块共享数据，p264-p266
+* chap 13.9 USE 语句的高级选项，p501-p502
