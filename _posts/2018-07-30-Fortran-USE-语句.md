@@ -31,7 +31,7 @@ Fortran 程序或子程序以及函数可以通过模块来交换数据。
 
 如下例子：一个用于程序之间共享数据的简单模块。
 
-~~~ fortran
+~~~
 MODULE shared_data
 !
 !  Purpose:
@@ -52,13 +52,13 @@ USE 语句必须出现在程序单元中的其他语句之前（除PROGRAM 或 S
 
 **USE 语句的格式如下：**
 
-~~~ fortran
+~~~
 USE module_name
 ~~~
 
 如下例子：使用`模块 shared_data`在主程序和子程序之间共享数据。
 
-~~~ fortran
+~~~
 PROGRAM test_module
 !
 !  Purpose:
@@ -105,7 +105,7 @@ END SUBROUTINE sub1
 为了限制对模块中特定数据项的访问， 可以将 ONLY 子句添加到 USE 语句中。
 **ONLY 子句形式如下：**
 
-~~~ fortran
+~~~
 USE module_name, ONLY: only_list
 ~~~
 
