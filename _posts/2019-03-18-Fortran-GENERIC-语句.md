@@ -18,7 +18,7 @@ tags:
 
 派生数据类型所绑定的 Fortran 2003 过程同样也可以通用，使用 GENERIC 语句声明这些过程。
 
-~~~ fortran
+~~~
 TYPE point
     REAL :: x
     REAL :: y
@@ -35,7 +35,7 @@ END TYPE point
 
 用带有绑定通用子程序的模块将向量或标量与另一个向量相加，如下所示。
 
-~~~ fortran
+~~~
 MODULE generic_procedure_module
 !
 !  Purpose:
@@ -111,7 +111,7 @@ END MODULE generic_procedure_module
 
 以上的二维向量模块使用绑定通用过程。
 
-~~~ fortran
+~~~
 PROGRAM test_generic_procedures
 !
 !  Purpose:
