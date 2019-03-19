@@ -62,8 +62,8 @@ disqus_username: dlxiii
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: bde2ea160c5f6f14e0b3                            #生成的clientID
-  clientSecret: 75c1143309a3067a38298a581bd379f16c2e8cf9    #生成的clientSecret
+  clientID: ae732a2bdde61fa427bc                            #生成的clientID
+  clientSecret: 02741112b1dcb41c0f7db1fd36a2d57fbba34089    #生成的clientSecret
   repo: dlxiii.github.io    #仓库名称
   owner: dlxiii    #github用户名
   admin: dlxiii
