@@ -57,11 +57,11 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: dlxiii
+# disqus_username: dlxiii
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
+  enable: true    #是否开启Gitalk评论
   clientID: ae732a2bdde61fa427bc                            #生成的clientID
   clientSecret: 02741112b1dcb41c0f7db1fd36a2d57fbba34089    #生成的clientSecret
   repo: dlxiii.github.io    #仓库名称
