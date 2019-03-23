@@ -1,0 +1,52 @@
+---
+layout:     post
+title:      FVCOM 数据加工：投影系统
+subtitle:   记录大脑抽风时修改 FVCOM 投影系统的要点
+date:       2019-03-24
+author:     DLXIII
+header-img: img/post-bg-nsequation.jpg
+catalog:    true
+tags:
+    - fvcom
+    - fvcom-toolbox
+    - fvcom-fabm-ersem
+    - cartesian
+---
+
+
+## 前言
+
+FVCOM 输入数据（4）：投影系统
+
+虽然不清楚，将 spherical 修改为 cartesian 是否正确，但是目前收集到的信息似乎说明隐隐告诉我应该是一下 cartesian 坐标系统。
+
+原因如下图。
+
+![snipaste1][1]
+
+## 需要做的事情
+
+* make.inc中，注释掉 FLAG_2 = -DSPHERICAL
+
+* make.inc中，开启掉 FLAG_6 = -DPROJ ，其连接库和文件夹
+
+* casename_run.nml中，修改 &NML_GRID_COORDINAT：GRID_FILE_UNITS 与 PROJECTION_REFERENCE。
+
+* 使用 fvcom-toolbox 时， 修改 utilities\grid2fvcom 中的 TriScatteredInterp 为 scatteredInterpolant。
+
+## 意外遇到的事情
+
+* 丢失库的情况：
+
+手动添加环境变量，大半夜不想找原因了，先凑合这样吧。
+
+![snipaste2][2]
+
+~~~
+export LD_LIBRARY_PATH=/home/usr0/n70110d/tools/uk-fvcom-FABM-ERSEM/code/FVCOM_source/libs/install/lib:$LD_LIBRARY_PATH
+~~~
+
+* 开始启用 YMD 格式的 namelist，在 DATE_FORMAT 下一行添加：“ DATE_REFERENCE  = 'default',”。
+
+  [1]: https://s2.ax1x.com/2019/03/24/AJopqK.png
+  [2]: https://s2.ax1x.com/2019/03/24/AJoeMt.png
