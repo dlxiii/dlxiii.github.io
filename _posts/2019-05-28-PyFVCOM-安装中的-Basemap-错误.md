@@ -16,9 +16,9 @@ tags:
 
 ## 前言
 
-* 测试 PyFVCOM。
+测试 PyFVCOM。
 
-因 PyFVCOM pakage 的 plot.py 中，因未能正确加载 mpl_toolkits.basemap 而引发的错误。
+PyFVCOM pakage 的 plot.py 中，因未能正确加载 mpl_toolkits.basemap 而引发的警告。
 
 ~~~python
 have_basemap = True
