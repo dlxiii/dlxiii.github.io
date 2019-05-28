@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      PyFVCOM 安装中的错误解决
-subtitle:   from mpl_toolkits.basemap import Basemap 的 KeyError: 'PROJ_LIB' 错误
+subtitle:   mpl_toolkits.basemap 的 KeyError: 'PROJ_LIB' 错误
 date:       2019-05-28
 author:     DLXIII
 header-img: img/post-bg-python.jpg
