@@ -80,7 +80,9 @@ gitalk:
 ga_track_id: 'UA-135783968-1'            # Format: UA-xxxxxx-xx
 ga_domain: dlxiii.top                    # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
-
+google:
+    ad-client: "ca-pub-5153073444309893"
+#    ad-slot: "9439014959"
 
 
 
