@@ -104,12 +104,12 @@ friends: [
     #    title: "Yulong's Notebook",
     #    href: "https://www.dragonbaby-toudai.cn/"
     #},
-    {
-        title: "Akio OKAYASU Lab",
-        href: "http://www2.kaiyodai.ac.jp/~okayasu/"
-    },
-    {
-        title: "Jun SASAKI Lab",
-        href: "https://estuarine.jp/"
-    }
+    #{
+    #    title: "Akio OKAYASU Lab",
+    #    href: "http://www2.kaiyodai.ac.jp/~okayasu/"
+    #},
+    #{
+    #    title: "Jun SASAKI Lab",
+    #    href: "https://estuarine.jp/"
+    #}
 ]
